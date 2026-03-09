@@ -1,0 +1,89 @@
+.demo-sidebar {
+  width: 240px;
+  background: #f9fafb;
+  border-right: 1px solid #e2e8f0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.demo-sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0f766e;;
+}
+
+.demo-sidebar nav a {
+  display: block;
+  padding: 8px 0;
+  color: #0f766e;;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.demo-sidebar nav a:hover {
+  color: #0f766e;;
+}
+
+.demo-header h3 {
+  font-size: 16px;
+  color: #0f766e;;
+  margin-bottom: 4px;
+}
+
+.demo-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #0f766e;;
+}
+
+.recitation-area {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.mic-button {
+  margin-top: 16px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #0f766e;;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mic-button:hover {
+  background: #0f766e;;
+}
+
+.live-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feedback-bot, .feedback-user {
+  display: flex;
+  gap: 12px;
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
+.feedback-bot {
+  background: #e0f2fe;
+}
+
+.feedback-user {
+  background: #d1fae5;
+}
+
+.feedback-bot .icon, .feedback-user .icon {
+  font-size: 20px;
+}
