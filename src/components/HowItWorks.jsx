@@ -1,22 +1,32 @@
+// import "../styles/how.css";
 // const Workflow = () => {
 //   return (
 //   <section id="workflow" className="workflow">
-//       <h2>How Tajweed AI Works</h2>
-
 //       <div className="workflow-steps">
-//         <div>
-//           <h3>1. Record</h3>
-//           <p>Recite directly in the browser.</p>
-//         </div>
-//         <div>
-//           <h3>2. Analyze</h3>
-//           <p>AI compares your recitation.</p>
-//         </div>
-//         <div>
-//           <h3>3. Improve</h3>
-//           <p>Receive Tajweed corrections.</p>
-//         </div>
-//       </div>
+//   <div className="step">
+//     <div className="circle">1</div>
+//     <div>
+//       <h3>Record</h3>
+//       <p>Recite directly in the browser.</p>
+//     </div>
+//   </div>
+
+//   <div className="step">
+//     <div className="circle">2</div>
+//     <div>
+//       <h3>Analyze</h3>
+//       <p>AI compares your recitation.</p>
+//     </div>
+//   </div>
+
+//   <div className="step">
+//     <div className="circle">3</div>
+//     <div>
+//       <h3>Improve</h3>
+//       <p>Receive Tajweed corrections.</p>
+//     </div>
+//   </div>
+// </div>
 //     </section>
 //   );
 // };
@@ -27,7 +37,7 @@ import "../styles/how.css";
 
 const HowItWorks = () => {
   return (
-    <section className="how">
+    <section className="how" id="workflow">
       <h2>How It Works</h2>
 
       <div className="steps">

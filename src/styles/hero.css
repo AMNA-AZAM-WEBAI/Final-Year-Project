@@ -56,16 +56,16 @@
 
 /* RIGHT SIDE IMAGE */
 .hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+  width: 50%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .hero-image img {
   width: 100%;
-  max-width: 500px;
-  border-radius: 20px;
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  object-fit: cover;
 }
 
 /* RESPONSIVE */

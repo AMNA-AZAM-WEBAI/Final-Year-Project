@@ -1,8 +1,8 @@
 // import Navbar from "../components/Navbar";
 // import Hero from "../components/Hero";
-// import Features from "../components/Features";
+// mport Testimonials from "../components/Testimonials";import Features from "../components/Features";
 // import Workflow from "../components/Workflow";
-// import Testimonials from "../components/Testimonials";
+// i
 // import Footer from "../components/Footer";
 
 // export default function Home() {
@@ -23,6 +23,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 import HowItWorks from "../components/HowItWorks";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
       <Hero />
       <Features />
       <HowItWorks />
+      <Testimonials/>
       <Footer />
     </>
   );

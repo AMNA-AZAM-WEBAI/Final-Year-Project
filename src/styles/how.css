@@ -31,3 +31,45 @@
   align-items: center;
   font-weight: bold;
 }
+
+/* .workflow {
+  padding: 80px 8%;
+}
+
+.workflow h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 32px;
+}
+
+.workflow-steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.workflow-steps div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background: #d4af37;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+} */

@@ -1,3 +1,4 @@
+import "../styles/testimonial.css";
 const Testimonials = () => {
   return (
     <section className="testimonials" id="testimonials">
